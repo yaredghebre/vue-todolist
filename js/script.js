@@ -18,6 +18,7 @@ createApp({
     return {
         currentToDo: 0,
         error: false,
+        classDone: "done", 
         newTodo: {
             Compito: "",
             Fatto: false
@@ -25,7 +26,7 @@ createApp({
         todos: [
             {
                 Compito: "Fare la spesa",
-                Fatto: true,
+                Fatto: false,
             },
             {
                 Compito: "Sistemare casa",

@@ -28,7 +28,7 @@
 
           <ul class="todo-list">
             <li v-for="todo in todos">
-              <p class="not-done">{{todo.Compito}}</p>
+              <p :class="classDone">{{todo.Compito}}</p>
               <span class="delete" @click="removeTodo(index)">&cross;</span>
             </li>
           </ul>

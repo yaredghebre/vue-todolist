@@ -84,6 +84,6 @@ input {
     margin-bottom: .5rem;
 }
 
-.not-done {
+.done {
     text-decoration: line-through;
 }
